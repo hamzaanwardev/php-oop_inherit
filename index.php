@@ -18,9 +18,7 @@ class cars {
         $this->model = $m;
 
     }
-    // function __construct() {
-    //     echo "CAR Showroom";
-    // }
+    
     function details() {
         echo "this car is of ". $this->price. " Price". "<br>";
         echo "this car have ". $this->color. " Color". "<br>";
@@ -28,9 +26,6 @@ class cars {
     }
 }
 class trucks extends cars {
-    // function __construct() {
-    //     echo "Truck Showroom";
-    // }
 }
 
 $car = new cars  (500000 , "white" , 2006);
