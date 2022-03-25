@@ -18,7 +18,6 @@ class cars {
         $this->model = $m;
 
     }
-    
     function details() {
         echo "this car is of ". $this->price. " Price". "<br>";
         echo "this car have ". $this->color. " Color". "<br>";
